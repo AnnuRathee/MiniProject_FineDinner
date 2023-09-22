@@ -1,0 +1,149 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar
+{
+    background-image: url(https://i.pinimg.com/564x/db/47/b2/db47b283297df954e468e067cf44a1d7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sidebarmenu
+{
+    position: fixed;
+    background-color: rgba(5, 10, 10, 0.616);
+    height: 100vh;
+    width: 300px;
+    box-shadow: 0px 0px 18px grey;
+    left: -300px;
+    transition: 0.5s linear;
+}
+
+#opener
+{
+    font-size: 30px;   
+    position: absolute;
+    margin: 2rem;
+    cursor: pointer;
+
+}
+
+#opener i:hover
+{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.logo
+{
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    line-height: 6px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px grey;
+}
+
+#croser
+{
+    position: absolute;
+    top: 20px;
+    padding-left: 255px;
+    font-size: 28px;
+    color: white;
+}
+
+#croser i:hover
+{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#check
+{
+    display: none;
+}
+
+.menu ul
+{
+    color: white;
+    padding: 0;
+}
+
+.menu li i
+{
+    padding-left: 20px;
+}
+
+.menu li
+{
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.menu li:hover
+{
+    box-shadow: 2px 2px 14px rgb(20, 19, 19);
+    font-size: 22px;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.menu i 
+{
+    padding-left: 2px;
+}
+
+.socialicons 
+{
+   margin-top: 120px;
+   margin-left: 90px;
+   color: white;
+   font-size: 20px;
+}
+
+.socialicons i
+{
+    padding: 4px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.socialicons i:hover
+{
+    opacity: 1;
+    font-size: 23px; 
+}
+
+#check:checked ~ .sidebarmenu
+{
+    left: 0;
+    transition: 0.8s linear;
+}
+
+#check:checked ~ .btn1 i
+{
+    opacity: 0;
+}
+
+ 
+
+
+
+
+
+
+
